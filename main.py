@@ -47,3 +47,9 @@ def variable(value_list, *kwargs):
 
 numbers = variable([value for value in range(1, 30)], 3, 5, 6, 7, 0)
 print(numbers)
+# with open('AAPL-2017.csv', newline='') as g:
+#     read = csv.DictReader(g)
+#     people = np.empty((0,6))
+#     for row in read:
+#         oneRow = np.array([[row['Open'], row['High'], row['Low'], row['Close'], row['Adj Close'], row['Volume']]],dtype=np.float64)
+#         people = np.append(people,oneRow,axis=0
